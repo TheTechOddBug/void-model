@@ -318,12 +318,12 @@ Save overwrites `quadmask_0.mp4` in place. Rerun inference from Pass 1 after sav
 
 Due to licensing constraints on the underlying datasets, we release the **data generation code** instead of the pre-built training data. The code produces paired counterfactual videos (with/without object, plus quad-masks) from two sources:
 
-#### Source 1: HuMoTo (Human-Object Interaction)
+#### Source 1: HUMOTO (Human-Object Interaction)
 
 Generates counterfactual videos from the [HUMOTO]([https://4d-humans.github.io/](https://github.com/adobe-research/humoto)) motion capture dataset using Blender. A human (Remy/Sophie character) interacts with objects; removing the human causes objects to fall via physics simulation.
 
 **Prerequisites:**
-1. Request access to the HuMoTo dataset from the authors at [adobe-research/humoto](https://github.com/adobe-research/humoto) and download it once approved
+1. Request access to the HUMOTO dataset from the authors at [adobe-research/humoto](https://github.com/adobe-research/humoto) and download it once approved
 2. Install [Blender](https://www.blender.org/download/)
 3. Download Remy and Sophie character models from [Mixamo](https://www.mixamo.com/) (free)
 4. Download PBR textures of your choice (e.g., from [ambientCG](https://ambientcg.com/) or [Poly Haven](https://polyhaven.com/))
@@ -332,7 +332,7 @@ Generates counterfactual videos from the [HUMOTO]([https://4d-humans.github.io/]
 ```bash
 cd data_generation
 
-# 1. Convert HuMoTo sequences to Remy/Sophie characters
+# 1. Convert HUMOTO sequences to Remy/Sophie characters
 bash convert_split_remy_sophie.sh
 
 # 2. Render paired videos (with human, without human, quad-mask)
