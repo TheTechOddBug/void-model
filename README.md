@@ -110,7 +110,7 @@ VOID/
 ├── void_pass1.safetensors          # download from huggingface.co/void-model (see Models above)
 ├── void_pass2.safetensors          # download from huggingface.co/void-model (see Models above)
 ├── training_data/                  # generated via data_generation/ pipeline (see Training section)
-└── data_generation/                # data generation code (HuMoTo + Kubric pipelines)
+└── data_generation/                # data generation code (HUMOTO + Kubric pipelines)
 ```
 
 </details>
@@ -431,7 +431,7 @@ Training was run on **8× A100 80GB GPUs** using DeepSpeed ZeRO stage 2.
 
 ## 🙏 Acknowledgements
 
-This implementation builds on code and models from [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun/tree/main), [Gen-Omnimatte](https://github.com/gen-omnimatte/gen-omnimatte-public/tree/main), and [Go-with-the-Flow](https://github.com/Eyeline-Labs/Go-with-the-Flow). We thank the authors for sharing the codes and pretrained inpainting models for CogVideoX, Gen-Omnimatte, and the optical flow warping utilities.
+This implementation builds on code and models from [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun/tree/main), [Gen-Omnimatte](https://github.com/gen-omnimatte/gen-omnimatte-public/tree/main), [Go-with-the-Flow](https://github.com/Eyeline-Labs/Go-with-the-Flow), [Kubric](https://github.com/google-research/kubric) and [HUMOTO](https://jiaxin-lu.github.io/humoto/). We thank the authors for sharing the codes and pretrained inpainting models for CogVideoX, Gen-Omnimatte, and the optical flow warping utilities.
 
 ---
 
