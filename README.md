@@ -17,9 +17,6 @@
   <a href="https://huggingface.co/sam-motamed/VOID" target="_blank" style="margin: 2px;">
     <img alt="Models" src="https://img.shields.io/badge/🤗%20HuggingFace-Models-orange" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="https://github.com/sam-motamed/VOID/tree/main/data_generation" target="_blank" style="margin: 2px;">
-    <img alt="Data" src="https://img.shields.io/badge/Data-Generation_Code-34A853" style="display: inline-block; vertical-align: middle;"/>
-  </a>
 </div>
 <h4>
 
