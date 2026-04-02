@@ -469,6 +469,19 @@ Training was run on **8× A100 80GB GPUs** using DeepSpeed ZeRO stage 2.
 
 ---
 
+## 🤩 Community Adoption
+
+We are excited to see the community build on VOID!  
+Below we showcase selected demos, tools, and extensions.
+
+If you’ve built something using VOID, feel free to submit a PR to add it here.
+
+### 🌐 Demos & Projects
+
+- ⭐ **Gradio Demo** — @sam-motamed  
+  Interactive demo for trying VOID in the browser:  
+  👉 https://huggingface.co/spaces/sam-motamed/VOID
+
 ## 🙏 Acknowledgements
 
 This implementation builds on code and models from [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun/tree/main), [Gen-Omnimatte](https://github.com/gen-omnimatte/gen-omnimatte-public/tree/main), [Go-with-the-Flow](https://github.com/Eyeline-Labs/Go-with-the-Flow), [Kubric](https://github.com/google-research/kubric) and [HUMOTO](https://jiaxin-lu.github.io/humoto/). We thank the authors for sharing the codes and pretrained inpainting models for CogVideoX, Gen-Omnimatte, and the optical flow warping utilities.
