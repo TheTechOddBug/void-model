@@ -490,13 +490,17 @@ This implementation builds on code and models from [aigc-apps/VideoX-Fun](https:
 
 ## 📄 Citation
 
-If you use VOID in your research, please cite:
+If you find our work useful, please consider citing:
+
+🔗 https://arxiv.org/abs/2604.02296
 
 ```bibtex
-@article{motamed2026void,
-  author    = {Motamed, Saman and Harvey, William and Klein, Benjamin and Van Gool, Luc and Yuan, Zhuoning and Cheng, Ta-ying},
-  title     = {VOID: Video Object and Interaction Deletion},
-  journal   = {arXiv preprint},
-  year      = {2026},
+@misc{motamed2026void,
+  title={VOID: Video Object and Interaction Deletion},
+  author={Saman Motamed and William Harvey and Benjamin Klein and Luc Van Gool and Zhuoning Yuan and Ta-Ying Cheng},
+  year={2026},
+  eprint={2604.02296},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2604.02296}
 }
-```
